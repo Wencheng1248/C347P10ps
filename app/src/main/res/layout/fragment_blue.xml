@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Blue" >
+
+
+    <LinearLayout
+        android:id="@+id/ly2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here's a piece of trivia for you: Did you know that National Trivia Day takes place on Friday, January 4? This year, we're celebrating with some of the greatest fun facts about animals, food, music, and other topics worth knowing about. (Wine trivia? Oh, we are so there.) Whether it's an interesting truth about blue whales or some mind-boggling facts about American food, it's always good to know some random trivia — and even more fun to quiz your friends and family with some crazy facts that are wildly unknown but still surprisingly true. The next time you're gathered around the table for some quality family dinner time, pull out one (or more) of these cool-but-unknown facts as an interesting conversation starter or a fun quizzing game — you'll even be sure to impress everyone with your knowledge and have tons of fun while you're at " />
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Color" />
+    </LinearLayout>
+</FrameLayout>
